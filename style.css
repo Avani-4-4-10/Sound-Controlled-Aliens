@@ -1,0 +1,33 @@
+.header_div{
+    background-color: aquamarine;
+    color: black;
+}
+p{
+    font-size: 12px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+}
+.main_div button{
+    width: 130px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-size: 17px;
+}
+.copyright_footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 3;
+    background-color: antiquewhite;
+    text-shadow: 5px 5px 5px grey;
+    text-align: center;
+    font-weight: bold;
+}   
