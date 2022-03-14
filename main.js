@@ -19,8 +19,8 @@ function gotResults(error , results){
         document.getElementById("result_sound").style.color="rgb("+r+","+g+","+b+")"
         document.getElementById("result_confidence").style.color="rgb("+r+","+g+","+b+")"
 
-        document.getElementById("result_sound").innerHTML=results[0].label
-        document.getElementById("result_confidence").innerHTML=(results[0].confidence*100).toFixed(2)+" % "
+        document.getElementById("result_sound").innerHTML="I can hear : "+results[0].label
+        document.getElementById("result_confidence").innerHTML="Accuracy : "+(results[0].confidence*100).toFixed(2)+" % "
 
         img1=document.getElementById("alien1")
         img2=document.getElementById("alien2")
